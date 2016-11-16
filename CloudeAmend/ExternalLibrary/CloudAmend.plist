@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Crop &amp; Resize image</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Set image size - Width</string>
+			<key>Key</key>
+			<string>Set image size - Width</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Set image size  - Height</string>
+			<key>Key</key>
+			<string>Set image size  - Height</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Set image size - Width &amp; Height</string>
+			<key>Key</key>
+			<string>Set image size - Width &amp; Height</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Fit Image - Fit XY </string>
+			<key>Key</key>
+			<string>Fit Image - Fit XY</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Fit Image - Fit Width</string>
+			<key>Key</key>
+			<string>Fit Image - Fit Width</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Fit Image - Fit Height</string>
+			<key>Key</key>
+			<string>Fit Image - Fit Height</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Fit Image - Fit Fill</string>
+			<key>Key</key>
+			<string>Fit Image - Fit Fill</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Fit Image - Fit Inside</string>
+			<key>Key</key>
+			<string>Fit Image - Fit Inside</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Align Image - Align Left</string>
+			<key>Key</key>
+			<string>Align Image - Align Left</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Fit Face</string>
+			<key>Key</key>
+			<string>Fit Face</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Align Image - Align Right </string>
+			<key>Key</key>
+			<string>Align Image - Align Right</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Align Image - Align Center</string>
+			<key>Key</key>
+			<string>Align Image - Align Center</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Align Image - Align Top</string>
+			<key>Key</key>
+			<string>Align Image - Align Top</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Align Image - Align Bottom</string>
+			<key>Key</key>
+			<string>Align Image - Align Bottom</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Origin</string>
+			<key>Key</key>
+			<string>Origin</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Width</string>
+				<string>Height</string>
+				<string>X</string>
+				<string>Y</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Colour</string>
+			<key>Key</key>
+			<string>Colour</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Colour</string>
+			</array>
+		</dict>
+	</array>
+	<key>Crop to Rounded Rectangle/Circular</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>For rounded rectangle</string>
+			<key>Key</key>
+			<string>For rounded rectangle</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Radius</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>For circle</string>
+			<key>Key</key>
+			<string>For circle</string>
+			<key>TextFieldCount</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Set Quality</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Set Quality</string>
+			<key>Key</key>
+			<string>Set Quality</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Quality</string>
+			</array>
+		</dict>
+	</array>
+	<key>Flip</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>X</string>
+			<key>Key</key>
+			<string>Flip X</string>
+			<key>TextFieldCount</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Y</string>
+			<key>Key</key>
+			<string>Flip Y</string>
+			<key>TextFieldCount</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>XY</string>
+			<key>Key</key>
+			<string>Flip XY</string>
+			<key>TextFieldCount</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Rotate</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Value(Angel)</string>
+			<key>Key</key>
+			<string>Rotate</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Rotate</string>
+			</array>
+		</dict>
+	</array>
+	<key>Grayscale</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Grayscale</string>
+			<key>Key</key>
+			<string>Grayscale</string>
+			<key>TextFieldCount</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Invert</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Invert</string>
+			<key>Key</key>
+			<string>Invert</string>
+			<key>TextFieldCount</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Brightness &amp; Contrast</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Brightness &amp; Contrast</string>
+			<key>Key</key>
+			<string>Brightness &amp; Contrast</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Brightness</string>
+				<string>Contrast</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Brightness</string>
+			<key>Key</key>
+			<string>Brightness</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Brightness</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Contrast</string>
+			<key>Key</key>
+			<string>Contrast</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Contrast</string>
+			</array>
+		</dict>
+	</array>
+	<key>Insert Text</key>
+	<array>
+		<dict>
+			<key>Key</key>
+			<string>Insert Text</string>
+			<key>Description</key>
+			<string>Insert Text	,Text,XY,Size,Style</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>Insert text</string>
+				<string>X</string>
+				<string>Y</string>
+				<string>Size</string>
+				<string>Style</string>
+				<string>Color</string>
+			</array>
+		</dict>
+	</array>
+	<key>Insert Image</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>insertimage</string>
+			<key>Key</key>
+			<string>Insert Image</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>imageUrl</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>insertimage,x_,y_</string>
+			<key>Key</key>
+			<string>Insert Image</string>
+			<key>TextFieldCount</key>
+			<array>
+				<string>imageUrl</string>
+				<string>X</string>
+				<string>Y</string>
+			</array>
+		</dict>
+	</array>
+	<key>Default Image</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Default Image</string>
+			<key>Key</key>
+			<string>Default Image</string>
+			<key>TextFieldCount</key>
+			<array/>
+		</dict>
+	</array>
+	<key>Multiple Operations</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>Multiple Operations</string>
+			<key>Key</key>
+			<string>Multiple Operations</string>
+			<key>TextFieldCount</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Multiple Images</string>
+			<key>Key</key>
+			<string>Multiple Images</string>
+			<key>TextFieldCount</key>
+			<array/>
+		</dict>
+	</array>
+</dict>
+</plist>

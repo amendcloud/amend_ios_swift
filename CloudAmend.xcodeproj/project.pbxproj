@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840678661DC9E2380011BE83 /* Support.m in Sources */ = {isa = PBXBuildFile; fileRef = 840678631DC9E2380011BE83 /* Support.m */; };
+		840678671DC9E2380011BE83 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 840678651DC9E2380011BE83 /* UIView+Toast.m */; };
+		84101AF51DBF8B1A00B7642E /* MyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84101AF31DBF8B1A00B7642E /* MyCustomCell.swift */; };
+		84101AF61DBF8B1A00B7642E /* MyTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84101AF41DBF8B1A00B7642E /* MyTableViewDataSource.swift */; };
+		84101AF81DBF8C6600B7642E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84101AF71DBF8C6600B7642E /* TableViewController.swift */; };
+		8419D1911D9BD975006F5EB6 /* CloudAmendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419D1901D9BD975006F5EB6 /* CloudAmendDetailViewController.swift */; };
+		842E0B821DC0777600420736 /* MutipleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E0B811DC0777600420736 /* MutipleImageViewController.swift */; };
+		8462538B1DDC4A4800EA066A /* Amend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846253851DDC4A4800EA066A /* Amend.swift */; };
+		8462538C1DDC4A4800EA066A /* AmendImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 846253871DDC4A4800EA066A /* AmendImageView.m */; };
+		8462538D1DDC4A4800EA066A /* AmendOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846253881DDC4A4800EA066A /* AmendOption.swift */; };
+		8462538E1DDC4A4800EA066A /* errorplacehoader.png in Resources */ = {isa = PBXBuildFile; fileRef = 846253891DDC4A4800EA066A /* errorplacehoader.png */; };
+		8462538F1DDC4A4800EA066A /* placeholderamend.png in Resources */ = {isa = PBXBuildFile; fileRef = 8462538A1DDC4A4800EA066A /* placeholderamend.png */; };
+		848A78151D9A3FD400D4A404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A78141D9A3FD400D4A404 /* AppDelegate.swift */; };
+		848A78171D9A3FD400D4A404 /* CloudAmendFeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A78161D9A3FD400D4A404 /* CloudAmendFeaturesViewController.swift */; };
+		848A781A1D9A3FD400D4A404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A78181D9A3FD400D4A404 /* Main.storyboard */; };
+		848A781C1D9A3FD400D4A404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848A781B1D9A3FD400D4A404 /* Assets.xcassets */; };
+		848A781F1D9A3FD400D4A404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A781D1D9A3FD400D4A404 /* LaunchScreen.storyboard */; };
+		848A78291D9A4B7200D4A404 /* CloudAmendFeaturesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A78281D9A4B7200D4A404 /* CloudAmendFeaturesListViewController.swift */; };
+		848A782E1D9A5DFC00D4A404 /* JSImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848A782D1D9A5DFC00D4A404 /* JSImagePickerViewController.m */; };
+		848A78321D9A612000D4A404 /* salman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 848A78301D9A612000D4A404 /* salman.jpg */; };
+		848A78331D9A612000D4A404 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 848A78311D9A612000D4A404 /* maxresdefault.jpg */; };
+		848A78351D9A620400D4A404 /* CloudeAmendImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A78341D9A620400D4A404 /* CloudeAmendImagePickerViewController.swift */; };
+		848A78371D9A697600D4A404 /* CloudAmend.plist in Resources */ = {isa = PBXBuildFile; fileRef = 848A78361D9A697600D4A404 /* CloudAmend.plist */; };
+		848A783C1D9A706B00D4A404 /* GlobalFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 848A783B1D9A706B00D4A404 /* GlobalFunction.m */; };
+		84C5CD801DA4EA110095517E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5CD7F1DA4EA110095517E /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		840678621DC9E2380011BE83 /* Support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Support.h; sourceTree = "<group>"; };
+		840678631DC9E2380011BE83 /* Support.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Support.m; sourceTree = "<group>"; };
+		840678641DC9E2380011BE83 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		840678651DC9E2380011BE83 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		84101AF31DBF8B1A00B7642E /* MyCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomCell.swift; sourceTree = "<group>"; };
+		84101AF41DBF8B1A00B7642E /* MyTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewDataSource.swift; sourceTree = "<group>"; };
+		84101AF71DBF8C6600B7642E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8419D1901D9BD975006F5EB6 /* CloudAmendDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudAmendDetailViewController.swift; sourceTree = "<group>"; };
+		842E0B811DC0777600420736 /* MutipleImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutipleImageViewController.swift; sourceTree = "<group>"; };
+		846253851DDC4A4800EA066A /* Amend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amend.swift; sourceTree = "<group>"; };
+		846253861DDC4A4800EA066A /* AmendImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmendImageView.h; sourceTree = "<group>"; };
+		846253871DDC4A4800EA066A /* AmendImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmendImageView.m; sourceTree = "<group>"; };
+		846253881DDC4A4800EA066A /* AmendOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmendOption.swift; sourceTree = "<group>"; };
+		846253891DDC4A4800EA066A /* errorplacehoader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = errorplacehoader.png; sourceTree = "<group>"; };
+		8462538A1DDC4A4800EA066A /* placeholderamend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholderamend.png; sourceTree = "<group>"; };
+		848A78111D9A3FD400D4A404 /* CloudAmend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudAmend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848A78141D9A3FD400D4A404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848A78161D9A3FD400D4A404 /* CloudAmendFeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudAmendFeaturesViewController.swift; sourceTree = "<group>"; };
+		848A78191D9A3FD400D4A404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848A781B1D9A3FD400D4A404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848A781E1D9A3FD400D4A404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848A78201D9A3FD400D4A404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848A78281D9A4B7200D4A404 /* CloudAmendFeaturesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudAmendFeaturesListViewController.swift; sourceTree = "<group>"; };
+		848A782B1D9A5DFB00D4A404 /* CloudAmend-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloudAmend-Bridging-Header.h"; sourceTree = "<group>"; };
+		848A782C1D9A5DFC00D4A404 /* JSImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSImagePickerViewController.h; sourceTree = "<group>"; };
+		848A782D1D9A5DFC00D4A404 /* JSImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSImagePickerViewController.m; sourceTree = "<group>"; };
+		848A78301D9A612000D4A404 /* salman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salman.jpg; sourceTree = "<group>"; };
+		848A78311D9A612000D4A404 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
+		848A78341D9A620400D4A404 /* CloudeAmendImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudeAmendImagePickerViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		848A78361D9A697600D4A404 /* CloudAmend.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CloudAmend.plist; sourceTree = "<group>"; };
+		848A783A1D9A706B00D4A404 /* GlobalFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalFunction.h; sourceTree = "<group>"; };
+		848A783B1D9A706B00D4A404 /* GlobalFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalFunction.m; sourceTree = "<group>"; };
+		84C5CD7E1DA4EA110095517E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		84C5CD7F1DA4EA110095517E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848A780E1D9A3FD400D4A404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842E0B801DC0769100420736 /* Multiple operation */ = {
+			isa = PBXGroup;
+			children = (
+				84101AF71DBF8C6600B7642E /* TableViewController.swift */,
+				84101AF31DBF8B1A00B7642E /* MyCustomCell.swift */,
+				84101AF41DBF8B1A00B7642E /* MyTableViewDataSource.swift */,
+			);
+			name = "Multiple operation";
+			sourceTree = "<group>";
+		};
+		846253841DDC4A4800EA066A /* AmendLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				846253851DDC4A4800EA066A /* Amend.swift */,
+				846253861DDC4A4800EA066A /* AmendImageView.h */,
+				846253871DDC4A4800EA066A /* AmendImageView.m */,
+				846253881DDC4A4800EA066A /* AmendOption.swift */,
+				846253891DDC4A4800EA066A /* errorplacehoader.png */,
+				8462538A1DDC4A4800EA066A /* placeholderamend.png */,
+			);
+			name = AmendLibrary;
+			path = CloudeAmend/ExternalLibrary/AmendLibrary;
+			sourceTree = "<group>";
+		};
+		848A78081D9A3FD400D4A404 = {
+			isa = PBXGroup;
+			children = (
+				846253841DDC4A4800EA066A /* AmendLibrary */,
+				848A78131D9A3FD400D4A404 /* CloudeAmend */,
+				848A78121D9A3FD400D4A404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848A78121D9A3FD400D4A404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848A78111D9A3FD400D4A404 /* CloudAmend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848A78131D9A3FD400D4A404 /* CloudeAmend */ = {
+			isa = PBXGroup;
+			children = (
+				848A78341D9A620400D4A404 /* CloudeAmendImagePickerViewController.swift */,
+				848A78161D9A3FD400D4A404 /* CloudAmendFeaturesViewController.swift */,
+				848A78281D9A4B7200D4A404 /* CloudAmendFeaturesListViewController.swift */,
+				8419D1901D9BD975006F5EB6 /* CloudAmendDetailViewController.swift */,
+				848A78141D9A3FD400D4A404 /* AppDelegate.swift */,
+				842E0B811DC0777600420736 /* MutipleImageViewController.swift */,
+				848A78181D9A3FD400D4A404 /* Main.storyboard */,
+				842E0B801DC0769100420736 /* Multiple operation */,
+				848A781B1D9A3FD400D4A404 /* Assets.xcassets */,
+				848A781D1D9A3FD400D4A404 /* LaunchScreen.storyboard */,
+				848A78201D9A3FD400D4A404 /* Info.plist */,
+				848A782F1D9A611600D4A404 /* Dummy Images */,
+				848A782A1D9A5DF400D4A404 /* ExternalLibrary */,
+			);
+			path = CloudeAmend;
+			sourceTree = "<group>";
+		};
+		848A782A1D9A5DF400D4A404 /* ExternalLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				848A78361D9A697600D4A404 /* CloudAmend.plist */,
+				848A782C1D9A5DFC00D4A404 /* JSImagePickerViewController.h */,
+				848A782D1D9A5DFC00D4A404 /* JSImagePickerViewController.m */,
+				848A782B1D9A5DFB00D4A404 /* CloudAmend-Bridging-Header.h */,
+				848A783A1D9A706B00D4A404 /* GlobalFunction.h */,
+				848A783B1D9A706B00D4A404 /* GlobalFunction.m */,
+				84C5CD7E1DA4EA110095517E /* MBProgressHUD.h */,
+				84C5CD7F1DA4EA110095517E /* MBProgressHUD.m */,
+				840678621DC9E2380011BE83 /* Support.h */,
+				840678631DC9E2380011BE83 /* Support.m */,
+				840678641DC9E2380011BE83 /* UIView+Toast.h */,
+				840678651DC9E2380011BE83 /* UIView+Toast.m */,
+			);
+			path = ExternalLibrary;
+			sourceTree = "<group>";
+		};
+		848A782F1D9A611600D4A404 /* Dummy Images */ = {
+			isa = PBXGroup;
+			children = (
+				848A78301D9A612000D4A404 /* salman.jpg */,
+				848A78311D9A612000D4A404 /* maxresdefault.jpg */,
+			);
+			path = "Dummy Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848A78101D9A3FD400D4A404 /* CloudAmend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A78231D9A3FD400D4A404 /* Build configuration list for PBXNativeTarget "CloudAmend" */;
+			buildPhases = (
+				848A780D1D9A3FD400D4A404 /* Sources */,
+				848A780E1D9A3FD400D4A404 /* Frameworks */,
+				848A780F1D9A3FD400D4A404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudAmend;
+			productName = CloudeAmend;
+			productReference = 848A78111D9A3FD400D4A404 /* CloudAmend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848A78091D9A3FD400D4A404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = adminTACT;
+				TargetAttributes = {
+					848A78101D9A3FD400D4A404 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T4A2CHU3RS;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 848A780C1D9A3FD400D4A404 /* Build configuration list for PBXProject "CloudAmend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848A78081D9A3FD400D4A404;
+			productRefGroup = 848A78121D9A3FD400D4A404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848A78101D9A3FD400D4A404 /* CloudAmend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848A780F1D9A3FD400D4A404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8462538E1DDC4A4800EA066A /* errorplacehoader.png in Resources */,
+				848A781F1D9A3FD400D4A404 /* LaunchScreen.storyboard in Resources */,
+				848A78321D9A612000D4A404 /* salman.jpg in Resources */,
+				848A78331D9A612000D4A404 /* maxresdefault.jpg in Resources */,
+				848A781C1D9A3FD400D4A404 /* Assets.xcassets in Resources */,
+				848A78371D9A697600D4A404 /* CloudAmend.plist in Resources */,
+				848A781A1D9A3FD400D4A404 /* Main.storyboard in Resources */,
+				8462538F1DDC4A4800EA066A /* placeholderamend.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848A780D1D9A3FD400D4A404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A78351D9A620400D4A404 /* CloudeAmendImagePickerViewController.swift in Sources */,
+				84101AF81DBF8C6600B7642E /* TableViewController.swift in Sources */,
+				84101AF51DBF8B1A00B7642E /* MyCustomCell.swift in Sources */,
+				848A78291D9A4B7200D4A404 /* CloudAmendFeaturesListViewController.swift in Sources */,
+				842E0B821DC0777600420736 /* MutipleImageViewController.swift in Sources */,
+				848A783C1D9A706B00D4A404 /* GlobalFunction.m in Sources */,
+				840678671DC9E2380011BE83 /* UIView+Toast.m in Sources */,
+				8462538B1DDC4A4800EA066A /* Amend.swift in Sources */,
+				840678661DC9E2380011BE83 /* Support.m in Sources */,
+				84101AF61DBF8B1A00B7642E /* MyTableViewDataSource.swift in Sources */,
+				848A782E1D9A5DFC00D4A404 /* JSImagePickerViewController.m in Sources */,
+				8419D1911D9BD975006F5EB6 /* CloudAmendDetailViewController.swift in Sources */,
+				848A78171D9A3FD400D4A404 /* CloudAmendFeaturesViewController.swift in Sources */,
+				84C5CD801DA4EA110095517E /* MBProgressHUD.m in Sources */,
+				8462538C1DDC4A4800EA066A /* AmendImageView.m in Sources */,
+				8462538D1DDC4A4800EA066A /* AmendOption.swift in Sources */,
+				848A78151D9A3FD400D4A404 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		848A78181D9A3FD400D4A404 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848A78191D9A3FD400D4A404 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848A781D1D9A3FD400D4A404 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848A781E1D9A3FD400D4A404 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848A78211D9A3FD400D4A404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T4A2CHU3RS;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848A78221D9A3FD400D4A404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T4A2CHU3RS;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848A78241D9A3FD400D4A404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T4A2CHU3RS;
+				INFOPLIST_FILE = CloudeAmend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TACT.CloudeAmend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudeAmend/ExternalLibrary/CloudAmend-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		848A78251D9A3FD400D4A404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T4A2CHU3RS;
+				INFOPLIST_FILE = CloudeAmend/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TACT.CloudeAmend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CloudeAmend/ExternalLibrary/CloudAmend-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848A780C1D9A3FD400D4A404 /* Build configuration list for PBXProject "CloudAmend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A78211D9A3FD400D4A404 /* Debug */,
+				848A78221D9A3FD400D4A404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A78231D9A3FD400D4A404 /* Build configuration list for PBXNativeTarget "CloudAmend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A78241D9A3FD400D4A404 /* Debug */,
+				848A78251D9A3FD400D4A404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848A78091D9A3FD400D4A404 /* Project object */;
+}

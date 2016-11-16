@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CloudeAmend
+//  CloudAmend
 //
 //  Created by admin on 27/09/16.
 //  Copyright © 2016 adminTACT. All rights reserved.

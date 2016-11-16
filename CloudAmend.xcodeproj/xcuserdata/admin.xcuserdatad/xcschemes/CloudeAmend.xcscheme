@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "848A78101D9A3FD400D4A404"
-               BuildableName = "CloudeAmend.app"
-               BlueprintName = "CloudeAmend"
-               ReferencedContainer = "container:CloudeAmend.xcodeproj">
+               BuildableName = "CloudAmend.app"
+               BlueprintName = "CloudAmend"
+               ReferencedContainer = "container:CloudAmend.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "848A78101D9A3FD400D4A404"
-            BuildableName = "CloudeAmend.app"
-            BlueprintName = "CloudeAmend"
-            ReferencedContainer = "container:CloudeAmend.xcodeproj">
+            BuildableName = "CloudAmend.app"
+            BlueprintName = "CloudAmend"
+            ReferencedContainer = "container:CloudAmend.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "848A78101D9A3FD400D4A404"
-            BuildableName = "CloudeAmend.app"
-            BlueprintName = "CloudeAmend"
-            ReferencedContainer = "container:CloudeAmend.xcodeproj">
+            BuildableName = "CloudAmend.app"
+            BlueprintName = "CloudAmend"
+            ReferencedContainer = "container:CloudAmend.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "848A78101D9A3FD400D4A404"
-            BuildableName = "CloudeAmend.app"
-            BlueprintName = "CloudeAmend"
-            ReferencedContainer = "container:CloudeAmend.xcodeproj">
+            BuildableName = "CloudAmend.app"
+            BlueprintName = "CloudAmend"
+            ReferencedContainer = "container:CloudAmend.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
