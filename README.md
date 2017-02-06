@@ -111,6 +111,6 @@ Additional resources are available at:
 
 ## Support
 
-Contact us at [support@amendcloud.com](mailto:support@amendcloud.com)
+Contact us at [support@amend.cloud](mailto:support@amend.cloud)
 
 Or via Twitter: [@amend](https://twitter.com/#!/amendcloud)
